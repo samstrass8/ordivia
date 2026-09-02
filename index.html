@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ordivia Capital — Toronto</title>
+  <meta name="description" content="Ordivia Capital is a privately held Toronto holding company.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0B0D10;
+      --text: #F3EFE6;
+      --muted: #8F8A80;
+      --gold: #C5A059;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { background: var(--bg); color: var(--text); min-height: 100%; }
+    body {
+      font-family: Outfit, system-ui, sans-serif;
+      font-weight: 300;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10vh 24px 6vh;
+    }
+    .logo {
+      width: min(640px, 88vw);
+      height: auto;
+      display: block;
+    }
+    .tag {
+      margin-top: 1.6rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.34em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 400;
+    }
+    .rule {
+      width: 28px;
+      height: 1px;
+      background: var(--gold);
+      opacity: 0.7;
+      margin: 2.6rem auto 2.2rem;
+    }
+    .lede {
+      max-width: 34rem;
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+      line-height: 1.55;
+      color: #E6E0D4;
+    }
+    .contact {
+      margin-top: 2.4rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: lowercase;
+    }
+    .contact a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid var(--gold);
+      padding-bottom: 3px;
+    }
+    .contact a:hover { color: var(--gold); }
+    footer {
+      padding: 0 24px 2.4rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.62rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="logo.png" alt="Ordivia">
+    <p class="tag">A Toronto holding company</p>
+    <div class="rule" aria-hidden="true"></div>
+    <p class="lede">Ordivia Capital is a privately held company that owns and backs operating businesses. We take the long view.</p>
+    <p class="contact"><a href="mailto:sam@ordivia.ca">sam@ordivia.ca</a></p>
+  </main>
+  <footer>Toronto · © Ordivia Capital Corp.</footer>
+</body>
+</html>
